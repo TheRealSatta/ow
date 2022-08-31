@@ -1,0 +1,32 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins);
+
+body {
+  background-color: #3B56DF;
+  font-family: "Poppins";
+  color: #FFFFFF;
+  letter-spacing: -4;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+/* add custom cursor */
+.typewriter::after {
+  content: "|";
+  display: inline;
+  animation: blink 1s infinite;
+}
+
+/* custom cursor animation */
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
